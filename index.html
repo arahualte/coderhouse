@@ -1,53 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <!-- Begin Header -->
-    <header>
-      <div class="logoContainer">
-        <img src="img/logo.png" alt="logo" />
-      </div>
-      <nav class="navbar">
-        <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="./pages/aboutme.html">About Me</a></li>
-          <li><a href="./pages/skills.html">Skills</a></li>
-          <li><a href="./pages/projects.html">Projects</a></li>
-          <li><a href="./pages/contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- End Header -->
 
-    <!-- Begin Main -->
-    <main>
-      <div class="bannerContainer">
-        <div class="bannerImage">
-          <img src="img/1.png" alt="profile" />
-        </div>
-        <div class="bannerText">
-          <div class="slider-text-box">
-            <div class="slider-text-info">
-              <h2><span>Hello!!</span> I’m Araceli</h2>
-              <h3>Computer Engineering Student</h3>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Begin Header -->
+  <header>
+    <div class="logoContainer">
+      <img src="img/logo.png" alt="logo" />
+    </div>
+    <nav class="navbar">
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="./pages/aboutme.html">About Me</a></li>
+        <li><a href="./pages/hobbies.html">Hobbies</a></li>
+        <li><a href="./pages/projects.html">Projects</a></li>
+        <li><a href="./pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- End Header -->
+
+  <!-- Begin Main -->
+  <main>
+
+
+      <div class="slider-container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <div class="slider-info-img">
+              <img src="img/1.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-8 col-sm-8">
+            <div class="all-slider-text">
+              <div class="slider-info-text text-center">
+                <h2><span>Hello!!</span> I’m Araceli</h2>
+                <h3>Computer Engineering Student</h3>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </main>
+  
+
+  
+    <div class="blog-area gray-bg border-top pt-100 pb-60">
+      <div class="container">
+        <div class="section-title text-center mb-60">
+          <h2>My Hobbies</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <div class="single-blog text-center mb-30">
+              <div class="hover-style blog-icon">
+                <a href="blog.html">
+                  <img src="img/2.jpg" alt="">
+                </a>
+              </div>
+              <div class="blog-details text-center">
+                <h3><a href="#">3D Printing</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus placerat, dignissim est a,
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="single-blog text-center mb-30">
+              <div class="hover-style blog-icon">
+                <a href="blog.html">
+                  <img src="img/2.jpg" alt="">
+                </a>
+              </div>
+              <div class="blog-details text-center">
+                <h3><a href="#">Music</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus placerat, dignissim est a,
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="single-blog text-center mb-30 mrg-nn">
+              <div class="hover-style blog-icon">
+                <a href="blog.html">
+                  <img src="img/2.jpg" alt="">
+                </a>
+              </div>
+              <div class="blog-details text-center">
+                <h3><a href="#">Travel</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus placerat, dignissim est a,
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <!-- End Main -->
 
     <!-- Begin Footer -->
@@ -77,5 +136,6 @@
       </div>
     </footer>
     <!-- End Footer -->
-  </body>
+</body>
+
 </html>
