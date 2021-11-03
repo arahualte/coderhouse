@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>My Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logoContainer">
+        <img src="../img/logo.png" alt="logo" />
+      </div>
+      <nav class="navbar">
+        <ul class="menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./aboutme.html">About Me</a></li>
+          <li><a href="./skills.html">Skills</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="contact">
+        <div class="formContainer">
+          <h2>Contact Me!</h2>
+          <form>
+            <ul>
+              <li>
+                <label for="name"
+                  ><span>Name <span class="required-star">*</span></span></label
+                >
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail"
+                  ><span
+                    >Email <span class="required-star">*</span></span
+                  ></label
+                >
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="msg"><span>Message</span></label>
+                <textarea rows="4" cols="50"></textarea>
+              </li>
+
+              <!-- delete for final proyect -->
+              <li>
+                <label for="language">Choose your language</label>
+                <input list="languages" name="language" id="language" />
+                <datalist id="languages">
+                  <option value="Spanish" />
+                  <option value="English" />
+                </datalist>
+              </li>
+
+              <li>
+                <input
+                  type="radio"
+                  id="contactChoice1"
+                  name="contact"
+                  value="email"
+                />
+                <label for="contactChoice1">Email</label>
+
+                <input
+                  type="radio"
+                  id="contactChoice2"
+                  name="contact"
+                  value="phone"
+                />
+                <label for="contactChoice2">Phone</label>
+
+                <input type="checkbox" name="opt1" value="opt2" />
+                <label for="opt1"> Check 1</label><br />
+                <input type="checkbox" name="opt2" value="opt1" />
+                <label for="opt2"> Check 2</label><br />
+                <input type="reset" />
+              </li>
+
+              <!-- end delete -->
+              <li>
+                <input type="submit" />
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- Begin Footer -->
+    <footer class="footer">
+      <div class="footer-text">
+        <div class="container">
+          <div class="row footer-text-copyright">
+            <div class="col">
+              &copy;
+              <strong><a href="https://cesarmdq.github.io/">Araceli</a></strong>
+              2021. All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="container">
+          <div class="row footer-links-icons">
+            <div class="col">
+              <a href="#"><i class="fab fa-facebook"> Facebook</i></a>
+              <a href="#"><i class="fab fa-twitter"> Twitter</i></a>
+              <a href="#"><i class="fab fa-instagram"> Instagram</i></a>
+              <a href="#"><i class="fab fa-github"> Github</i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
