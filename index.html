@@ -1,54 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+  <body>
+    <!-- Begin Header -->
+    <header>
+      <div class="logoContainer">
+        <a href="/">
+          <img src="img/logo.png" alt="logo" />
+        </a>
+      </div>
+      <nav class="navbar">
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="./pages/aboutme.html">About Me</a></li>
+          <li><a href="./pages/hobbies.html">Hobbies</a></li>
+          <li><a href="./pages/projects.html">Projects</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+          <li><a href="./pages/boostrap.html">Boostrap</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End Header -->
 
-<body>
-  <!-- Begin Header -->
-  <header>
-    <div class="logoContainer">
-     <a href="/">
-      <img src="img/logo.png" alt="logo" />
-    </a>
-    </div>
-    <nav class="navbar">
-      <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="./pages/aboutme.html">About Me</a></li>
-        <li><a href="./pages/hobbies.html">Hobbies</a></li>
-        <li><a href="./pages/projects.html">Projects</a></li>
-        <li><a href="./pages/contact.html">Contact</a></li>
-        <li><a href="./pages/boostrap.html">Boostrap</a></li>
-      </ul>
-    </nav>
-  </header>
-  <!-- End Header -->
-
-  <!-- Begin Main -->
-  <main>
-
-    <div class="grid-container">
-      <div class="grid banner-image">
-        <div class="slider-info-img">
-          <img src="img/1.png" alt="" />
+    <!-- Begin Main -->
+    <main>
+      <div class="grid-container">
+        <div class="grid banner-image">
+          <div class="slider-info-img">
+            <img src="img/1.png" alt="" />
+          </div>
+        </div>
+        <div class="grid banner-text">
+          <div class="slider-info-text text-center">
+            <h2><span>Hello!!</span> I’m Araceli</h2>
+            <h3>Computer Engineering Student</h3>
+          </div>
         </div>
       </div>
-      <div class="grid banner-text">
-        <div class="slider-info-text text-center">
-          <h2><span>Hello!!</span> I’m Araceli</h2>
-          <h3>Computer Engineering Student</h3>
-        </div>
-      </div>
-    </div>
 
       <!-- <div class="slider-container">
         <div class="row">
@@ -67,7 +69,7 @@
           </div>
         </div>
       </div> -->
-  
+
       <!-- <div class="container">
         <div class="grid banner-image">
           <div class="col-md-4 col-sm-4">
@@ -88,64 +90,68 @@
         </div>
       </div> -->
 
- 
-<section id="#hobbies">
-  <div class="hobbies-area gray-bg border-top pt-100 pb-60">
-    <div class="hobbies-container">
-      <div class="section-title text-center mb-60">
-        <h2>My Hobbies</h2>
-      </div>
-      <div class="row">
-          <div class="col-md-4 col-sm-4">
-            <div class="single-hobbies text-center mb-30">
-              <div class="hover-style hobbies-icon">
-                <a href="hobbies.html">
-                  <img src="img/printing.jpg" alt="">
-                </a>
+      <section id="#hobbies">
+        <div class="hobbies-area gray-bg border-top pt-100 pb-60">
+          <div class="hobbies-container">
+            <div class="section-title text-center mb-60">
+              <h2>My Hobbies</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-4 col-sm-4">
+                <div class="single-hobbies text-center mb-30">
+                  <div class="hover-style hobbies-icon">
+                    <a href="hobbies.html">
+                      <img src="img/printing.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="hobbies-details text-center">
+                    <h3><a href="#">3D Printing</a></h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Morbi in tellus placerat, dignissim est a,
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="hobbies-details text-center">
-                <h3><a href="#">3D Printing</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus placerat, dignissim est a,
-                </p>
+              <div class="col-md-4 col-sm-4">
+                <div class="single-hobbies text-center mb-30">
+                  <div class="hover-style hobbies-icon">
+                    <a href="hobbies.html">
+                      <img src="img/music.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="hobbies-details text-center">
+                    <h3><a href="#">Music</a></h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Morbi in tellus placerat, dignissim est a,
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4">
+                <div class="single-hobbies text-center mb-30">
+                  <div class="hover-style hobbies-icon">
+                    <a href="hobbies.html">
+                      <img src="img/travel.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="hobbies-details text-center">
+                    <h3><a href="#">Travel</a></h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Morbi in tellus placerat, dignissim est a,
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="single-hobbies text-center mb-30">
-              <div class="hover-style hobbies-icon">
-                <a href="hobbies.html">
-                  <img src="img/music.jpg" alt="">
-                </a>
-              </div>
-              <div class="hobbies-details text-center">
-                <h3><a href="#">Music</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus placerat, dignissim est a,
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="single-hobbies text-center mb-30">
-              <div class="hover-style hobbies-icon">
-                <a href="hobbies.html">
-                  <img src="img/travel.jpg" alt="">
-                </a>
-              </div>
-              <div class="hobbies-details text-center">
-                <h3><a href="#">Travel</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in tellus placerat, dignissim est a,
-                </p>
-              </div>
-            </div>
-          </div>        
         </div>
-      </div>
-    </div>
-  </section>
-    
-    
+      </section>
+    </main>
     <!-- End Main -->
-    
+
     <!-- Begin Footer -->
     <footer class="footer">
       <div class="footer-text">
@@ -173,6 +179,5 @@
       </div>
     </footer>
     <!-- End Footer -->
-</body>
-
+  </body>
 </html>
