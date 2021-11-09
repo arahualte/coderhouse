@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <title>My Project</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -13,24 +15,31 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
   </head>
   <body>
     <header>
-      <div class="logoContainer">
-        <a href="/">
-          <img src="../img/logo.png" alt="logo" />
-        </a>
-      </div>
-      <nav class="navbar">
-        <ul class="menu">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="./aboutme.html">About Me</a></li>
-          <li><a href="./hobbies.html">Hobbies</a></li>
-          <li><a href="./projects.html">Projects</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
+      <!-- Begin Navbar -->
+      <nav id="navbar" class="">
+        <div class="nav-wrapper">
+          <!-- Navbar Logo -->
+          <div class="logo">
+            <a href="/"><img src="img/logo/logo.png" alt="logo" /></a>
+          </div>
+          <!-- Navbar Links -->
+          <ul id="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./aboutme.html">About Me</a></li>
+            <li><a href="./hobbies.html">Hobbies</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
       </nav>
+      <!-- End Navbar -->
     </header>
+
     <main></main>
 
     <!-- Begin Footer -->
@@ -40,8 +49,11 @@
           <div class="row footer-text-copyright">
             <div class="col">
               &copy;
-              <strong><a href="https://cesarmdq.github.io/">Araceli</a></strong>
-              2021. All rights reserved.
+              <strong><a href="#">Araceli</a></strong>
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              - All rights reserved.
             </div>
           </div>
         </div>
@@ -50,10 +62,16 @@
         <div class="container">
           <div class="row footer-links-icons">
             <div class="col">
-              <a href="#"><i class="fab fa-facebook"> Facebook</i></a>
+              <a href="https://www.facebook.com/ara.hualte"
+                ><i class="fab fa-facebook"> Facebook</i></a
+              >
               <a href="#"><i class="fab fa-twitter"> Twitter</i></a>
-              <a href="#"><i class="fab fa-instagram"> Instagram</i></a>
-              <a href="#"><i class="fab fa-github"> Github</i></a>
+              <a href="https://www.instagram.com/arahualte"
+                ><i class="fab fa-instagram"> Instagram</i></a
+              >
+              <a href="https://github.com/arahualte"
+                ><i class="fab fa-github"> Github</i></a
+              >
             </div>
           </div>
         </div>
