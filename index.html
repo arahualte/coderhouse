@@ -19,7 +19,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header id="home" class="header">
       <!-- Begin Navbar -->
       <nav id="navbar" class="">
         <div class="nav-wrapper">
@@ -28,98 +28,244 @@
             <a href="/"><img src="img/logo/logo.png" alt="logo" /></a>
           </div>
           <!-- Navbar Links -->
-          <ul id="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="./pages/aboutme.html">About Me</a></li>
-            <li><a href="./pages/hobbies.html">Hobbies</a></li>
-            <li><a href="./pages/projects.html">Projects</a></li>
-            <li><a href="./pages/contact.html">Contact</a></li>
-            <li><a href="./pages/boostrap.html">Boostrap</a></li>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#hobbies" class="nav-link">hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#achievements" class="nav-link">achievements</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/contact.html" class="nav-link">Contact</a>
+            </li>
           </ul>
         </div>
       </nav>
       <!-- End Navbar -->
     </header>
+
     <!-- Begin Main -->
     <main>
-      <div class="grid-container">
-        <div class="grid banner-image">
-          <div class="slider-info-img">
-            <img src="img/1.png" alt="" />
-          </div>
+      <!-- About -->
+      <section class="section about" id="about">
+        <div class="title">
+          <h1>About me</h1>
         </div>
-        <div class="grid banner-text">
-          <div class="background_card">
-            <div class="slider-info-text text-center">
-              <h2><span>Hello!!</span> I’m Araceli</h2>
-              <h3>Computer Engineering Student</h3>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <section id="#hobbies">
-        <div class="hobbies-area gray-bg border-top pt-100 pb-60">
-          <div class="hobbies-container">
-            <div class="section-title text-center mb-60">
-              <h2>My Hobbies</h2>
+        <div class="about-center container">
+          <div class="left">
+            <img src="./img/slider/1.png" alt="" />
+          </div>
+          <div class="right">
+            <h1>I'm Araceli a <span id="type2"></span></h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              placeat inventore rerum tempore cupiditate, amet adipisci aut eius
+              facilis quisquam magni ratione maxime officiis earum blanditiis
+              magnam illum obcaecati vero? Odit ipsa facilis officiis fuga
+              voluptate similique sunt.
+            </p>
+            <a href="#" class="btn">Download my CV</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- hobbies -->
+      <section class="section theme" id="hobbies">
+        <div class="title">
+          <h1>My hobbies</h1>
+        </div>
+
+        <div class="hobbies-center container">
+          <div class="hobbie">
+            <span><i class="fab fa-accusoft"></i></span>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              exercitationem numquam porro asperiores neque architecto.
+            </p>
+          </div>
+
+          <div class="hobbie">
+            <span><i class="fas fa-chart-line"></i></span>
+            <h2>Advertising</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              exercitationem numquam porro asperiores neque architecto.
+            </p>
+          </div>
+
+          <div class="hobbie">
+            <span><i class="fas fa-blender-phone"></i></span>
+            <h2>Apps Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              exercitationem numquam porro asperiores neque architecto.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills -->
+      <section class="section skills" id="skills">
+        <div class="title">
+          <h1>My skills</h1>
+        </div>
+
+        <div class="skills-center container">
+          <div class="skills-left">
+            <div class="skills-box">
+              <h4>HTML5</h4>
+              <div class="skills-ilt">
+                <div class="skills-bar html"></div>
+                <span>95%</span>
+              </div>
             </div>
-            <div class="row">
-              <div class="col-md-4 col-sm-4">
-                <div class="single-hobbies text-center mb-30">
-                  <div class="hover-style hobbies-icon">
-                    <a href="hobbies.html">
-                      <img src="img/printing.jpg" alt="" />
-                    </a>
-                  </div>
-                  <div class="hobbies-details text-center">
-                    <h3><a href="#">3D Printing</a></h3>
+            <div class="skills-box">
+              <h4>CSS</h4>
+              <div class="skills-ilt">
+                <div class="skills-bar css"></div>
+                <span>85%</span>
+              </div>
+            </div>
+            <div class="skills-box">
+              <h4>JavaScript</h4>
+              <div class="skills-ilt">
+                <div class="skills-bar javascript"></div>
+                <span>90%</span>
+              </div>
+            </div>
+            <div class="skills-box">
+              <h4>Nodejs</h4>
+              <div class="skills-ilt">
+                <div class="skills-bar nodejs"></div>
+                <span>80%</span>
+              </div>
+            </div>
+
+            <div class="skills-box">
+              <h4>Mongodb</h4>
+              <div class="skills-ilt">
+                <div class="skills-bar mongodb"></div>
+                <span>95%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="right">
+            <h3>My creative skills and experience</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
+              tempora distinctio sed. Animi, doloribus est. Suscipit praesentium
+              tenetur libero eos! Suscipit voluptatem qui, nulla accusantium
+              deleniti nam recusandae officiis possimus at voluptate cupiditate
+              soluta nostrum deserunt consequuntur, ut quis eligendi? Quidem et
+              doloremque cupiditate veniam optio corporis voluptatum, animi
+              nemo!
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- achievements -->
+      <section class="section theme" id="achievements">
+        <div class="title">
+          <h1>My achievements</h1>
+        </div>
+
+        <div class="achievements-center container">
+          <div class="glide">
+            <div class="glide__track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <div class="team">
+                    <div class="img-cover">
+                      <img src="./img/1.jpg" alt="" />
+                    </div>
+                    <h3>Someone name</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Morbi in tellus placerat, dignissim est a,
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Libero, quo?
                     </p>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-4">
-                <div class="single-hobbies text-center mb-30">
-                  <div class="hover-style hobbies-icon">
-                    <a href="hobbies.html">
-                      <img src="img/music.jpg" alt="" />
-                    </a>
-                  </div>
-                  <div class="hobbies-details text-center">
-                    <h3><a href="#">Music</a></h3>
+                </li>
+                <li class="glide__slide">
+                  <div class="team">
+                    <div class="img-cover">
+                      <img src="./images/profile2.jpg" alt="" />
+                    </div>
+                    <h3>Someone name</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Morbi in tellus placerat, dignissim est a,
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Libero, quo?
                     </p>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-4">
-                <div class="single-hobbies text-center mb-30">
-                  <div class="hover-style hobbies-icon">
-                    <a href="hobbies.html">
-                      <img src="img/travel.jpg" alt="" />
-                    </a>
-                  </div>
-                  <div class="hobbies-details text-center">
-                    <h3><a href="#">Travel</a></h3>
+                </li>
+                <li class="glide__slide">
+                  <div class="team">
+                    <div class="img-cover">
+                      <img src="./images/profile3.jpg" alt="" />
+                    </div>
+                    <h3>Someone name</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Morbi in tellus placerat, dignissim est a,
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Libero, quo?
                     </p>
                   </div>
-                </div>
-              </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="team">
+                    <div class="img-cover">
+                      <img src="./images/profile4.jpg" alt="" />
+                    </div>
+                    <h3>Someone name</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Libero, quo?
+                    </p>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="team">
+                    <div class="img-cover">
+                      <img src="./images/profile3.jpg" alt="" />
+                    </div>
+                    <h3>Someone name</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Libero, quo?
+                    </p>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="team">
+                    <div class="img-cover">
+                      <img src="./images/profile5.jpg" alt="" />
+                    </div>
+                    <h3>Someone name</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Libero, quo?
+                    </p>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
     </main>
     <!-- End Main -->
-
     <!-- Begin Footer -->
     <footer class="footer">
       <div class="footer-text">

@@ -1,10 +1,9 @@
 {
-  "name": "coderhouse",
+  "name": "project",
   "version": "1.0.0",
-  "description": "Web Development Course by Coderhouse",
+  "description": "coderhouse final project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "compile:sass": "sass --watch scss:css"
   },
   "repository": {
@@ -12,7 +11,7 @@
     "url": "git+https://github.com/arahualte/coderhouse.git"
   },
   "keywords": [
-    "npm"
+    "portfolio"
   ],
   "author": "araceli hualte",
   "license": "ISC",
