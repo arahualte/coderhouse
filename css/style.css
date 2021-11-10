@@ -29,7 +29,7 @@ main {
 
 /*======================================================
                             Navbar
-    ======================================================*/
+  ======================================================*/
 #navbar {
   background: white;
   color: rgb(13, 26, 38);
@@ -81,7 +81,6 @@ main {
 }
 
 #navbar li a:hover {
-  /* border-bottom: 1px solid rgb(28, 121, 184); */
   color: #bc00fe;
 
 }
@@ -137,7 +136,9 @@ main {
   }
 }
 
-/* === Contact === */
+/*======================================================
+                        Contact
+  ======================================================*/
 .contact label,
 .contact input,
 .contact textarea {
@@ -679,7 +680,7 @@ a.btn:active {
   }
 }
 
-/* hobbies */
+
 .theme {
   background-color: #000;
 }
@@ -688,6 +689,9 @@ a.btn:active {
   color: #fff;
 }
 
+/*======================================================
+                     Hobbies
+======================================================*/
 .hobbies-center {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -799,8 +803,10 @@ a.btn:active {
   }
 }
 
-/* achievements */
-.team {
+/*======================================================
+                     Education
+======================================================*/
+.achievement {
   color: #fff;
   background-color: #111;
   padding: 3rem;
@@ -810,7 +816,7 @@ a.btn:active {
   transition: all 300ms ease-in-out;
 }
 
-.team .img-cover {
+.achievement .img-cover {
   overflow: hidden;
   border-radius: 100%;
   border: 4px solid var(--customColor);
@@ -820,33 +826,35 @@ a.btn:active {
   transition: all 300ms ease-in-out;
 }
 
-.team .img-cover img {
+.achievement .img-cover img {
   height: 100%;
   object-fit: cover;
 }
 
-.team h3 {
+.achievement h3 {
   font-size: 1.6rem;
   margin: 1rem 0;
 }
 
-.team p {
+.achievement p {
   font-size: 1.5rem;
   color: #ccc;
   width: 80%;
   margin: 0 auto 1rem auto;
 }
 
-.team:hover {
+.achievement:hover {
   border-bottom: 4px solid #fff;
   background-color: var(--customColor);
 }
 
-.team:hover .img-cover {
+.achievement:hover .img-cover {
   border-color: #fff;
 }
 
-/* Contact */
+/*======================================================
+                           Contact
+======================================================*/
 .contact-center {
   display: grid;
   grid-template-columns: 1fr 1fr;
