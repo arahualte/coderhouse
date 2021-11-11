@@ -147,11 +147,6 @@ li {
   text-transform: uppercase;
 }
 
-#menu {
-  display: flex;
-  padding: 10px;
-}
-
 #navbar li {
   display: inline-block;
 }
@@ -226,82 +221,19 @@ li {
 }
 
 /*======================================================
-                        Header
+                Navbar & Banner
   ======================================================*/
-.header {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  background: rgb(196, 196, 218);
-  z-index: 1;
-  overflow: hidden;
-}
-
-.header img {
-  position: absolute;
-  margin-left: 10%;
-  width: 40rem;
-  z-index: -1;
-}
-
 .hamburger {
   display: none;
 }
 
-@media only screen and (max-width: 996px) {
-  .header {
-    min-height: 60vh;
-  }
+.banner {
+  margin-top: 80px;
 
-  .header img {
-    width: 50rem;
-  }
 }
+
 
 @media only screen and (max-width: 768px) {
-  .header img {
-    width: 40rem;
-  }
-}
-
-@media only screen and (max-width: 567px) {
-  .header {
-    min-height: 100vh;
-  }
-
-  .header img {
-    width: 35rem;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .menu {
-    position: fixed;
-    top: 0;
-    left: -100%;
-    width: 80%;
-    max-width: 40rem;
-    height: 100%;
-    background-color: #fff;
-    transition: all 500ms ease-in-out;
-    z-index: 100;
-  }
-
-  .menu.show {
-    left: 0;
-  }
-
-  .logo h1 span {
-    color: #fff;
-  }
-
-  .top-nav .close {
-    color: #fff;
-    font-size: 2.3rem;
-    padding: 1rem;
-    cursor: pointer;
-  }
-
   .hamburger {
     display: block;
     color: #fff;
@@ -333,10 +265,6 @@ li {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1;
-  }
-
-  .nav.show {
-    background-color: rgba(0, 0, 0, 0.8);
   }
 }
 
@@ -493,24 +421,24 @@ a.btn:hover {
   height: 0.4rem;
 }
 
-.skills-box .html {
-  width: 95%;
+.skills-box .english {
+  width: 75%;
 }
 
-.skills-box .css {
+.skills-box .designapps {
+  width: 70%;
+}
+
+.skills-box .jde {
   width: 85%;
 }
 
-.skills-box .javascript {
-  width: 90%;
-}
-
-.skills-box .nodejs {
-  width: 80%;
+.skills-box .sql {
+  width: 65%;
 }
 
 .skills-box .mongodb {
-  width: 95%;
+  width: 50%;
 }
 
 .skills-box span {
