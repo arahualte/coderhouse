@@ -15,21 +15,12 @@
   --customColor: #bc00fe;
 }
 
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
 body {
   font-family: Lato, Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   background-color: #fff;
   color: #000;
-  position: relative;
   z-index: 1;
 }
 
@@ -223,6 +214,85 @@ li {
 /*======================================================
                 Navbar & Banner
   ======================================================*/
+
+/* === Banner ==== */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 1fr;
+}
+
+.grid {
+  padding: 25px;
+  font-size: 3rem;
+}
+
+.background_card {
+  background-color: rgb(230, 230, 230);
+  height: 300px;
+  padding: 20px;
+}
+
+.banner-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider-info-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-info-img>img {
+  width: 70%;
+}
+
+.slider-info-text>h2 {
+  font-size: 70px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.slider-info-text>h2 span {
+  font-weight: 600;
+}
+
+.slider-info-text>h3 {
+  font-size: 24px;
+  color: #757575;
+  font-weight: normal;
+}
+
+.slider-info-text.text-center {
+  padding: 30px;
+  border: 3px solid #fff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all-slider-text {
+  background-color: #f7f7f7;
+  padding: 30px;
+  width: 60%;
+  display: flex;
+  margin-left: 45%;
+}
+
+.slider-container {
+  display: inline;
+  margin-left: 15px;
+}
+
 .hamburger {
   display: none;
 }
@@ -593,6 +663,8 @@ a.btn:hover {
   background-color: black;
   display: flex;
   justify-content: space-between;
+  height: 11vh;
+  align-items: center;
 }
 
 .footer-text {
