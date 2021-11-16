@@ -110,7 +110,6 @@ li {
 
 /*# sourceMappingURL=style.css.map */
 
-
 @media only screen and (max-width: 1200px) {
   .container {
     padding: 0 3rem;
@@ -311,7 +310,6 @@ li {
 
 }
 
-
 @media only screen and (max-width: 768px) {
   .hamburger {
     display: block;
@@ -319,6 +317,12 @@ li {
     font-size: 2.3rem;
     padding: 0.5rem;
     cursor: pointer;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
   }
 
   .nav-link:link,
@@ -598,6 +602,36 @@ a.btn:hover {
 }
 
 /*======================================================
+                  Error 404 Page
+======================================================*/
+#error {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  padding: 150px;
+  text-align: center;
+}
+
+#error>h2 {
+  font-size: 70px;
+  color: #757575;
+  text-transform: capitalize;
+}
+
+#error>h2 span {
+  font-weight: 600;
+}
+
+#error>h3 {
+  font-size: 30px;
+  color: #757575;
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/*======================================================
                            Contact
 ======================================================*/
 .contact form {
@@ -672,7 +706,7 @@ a.btn:hover {
   background-color: black;
   display: flex;
   justify-content: space-between;
-  height: 11vh;
+  height: 15vh;
   align-items: center;
 }
 
